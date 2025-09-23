@@ -28,6 +28,7 @@ rpms:
   - nss-sysinit
   - nss-tools
   - conntrack-tools
+  - iscsi-initiator-utils
 debs:
   - apt-transport-https
   - ca-certificates
@@ -39,6 +40,12 @@ debs:
   - openssh-server
   - software-properties-common
   - sudo
+
+nvidia:
+  - nvidia-container-toolkit
+  - nvidia-container-toolkit-base
+  - libnvidia-container-tools
+  - libnvidia-container1
 
 centos: []
 
