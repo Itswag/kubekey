@@ -18,6 +18,8 @@ common:
   - ebtables
   - haproxy
   - keepalived
+  - qemu-kvm
+  - bridge-utils
 rpms:
   - nfs-utils
   - yum-utils
@@ -29,6 +31,7 @@ rpms:
   - nss-tools
   - conntrack-tools
   - iscsi-initiator-utils
+  - libvirt
 debs:
   - apt-transport-https
   - ca-certificates
@@ -40,6 +43,7 @@ debs:
   - openssh-server
   - software-properties-common
   - sudo
+  - libvirt-bin
 
 nvidia:
   - nvidia-container-toolkit
